@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+</head>
+<body>
+    <div class="borda">
+        <h1>Calculadora</h1>
+        <hr id="hr1">
+
+        <label> Primeiro número: <input id="num1" type="number" placeholder="Digite aqui o primeiro número"></label>
+        <br>
+
+        <label>Selecione uma operação:</label> 
+        <select id="Selecao">
+            <option value="">Selecione</option>
+            <option value="soma">SOMA</option>
+            <option value="subtrair">SUBTRAÇÃO</option>
+            <option value="divisao">DIVISÃO</option>
+            <option value="multiplicacao">MULTIPLICAÇÃO</option>
+        </select>
+        <br>
+
+        <label> Segundo número:<input id="num2" type="number"placeholder="Digite aqui o segundo número"></label>
+        <br>
+
+        <input id="calcular" type="button" value="Calcular" onclick="calculo()">
+        <hr id="hr2">
+
+        <div>
+            <h2>Resultado:</h2>
+            <div id="resultado"></div>
+        </div>
+        <hr id="hr3">
+    </div>
+
+    <script src="../js/imprimirCalculo.js"></script>
+    <script src="../js/soma.js"></script>
+    <script src="../js/subtrair.js"></script>
+    <script src="../js/dividir.js"></script>
+    <script src="../js/multiplicar.js"></script>
+    <script src="../js/validarVazio.js"></script>
+    <script src="../js/validarCor.js"></script>
+
+</body>
+</html>

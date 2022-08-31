@@ -1,0 +1,52 @@
+body {
+    background-color: grey;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.borda {
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    width: auto;
+    padding: 20px;
+
+}
+
+#num1 {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+#Selecao {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+#num2 {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+#hr1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#hr2 {
+    margin-bottom: 40px;
+}
+
+#hr3 {
+    margin-bottom: 18;
+}
+
+#hr1,
+#hr2,
+#hr3 {
+    border-color: black;
+}
